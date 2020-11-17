@@ -1,0 +1,309 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Cardo', serif;
+}
+
+#container{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+
+header {
+    background-position: center;
+    background-size: cover;
+}
+
+.text-1 h3 {
+    border-bottom: 1px solid black;
+    line-height: .1em;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    margin: 100px 100px;
+}
+
+.text-1 h3 span {
+    background-color: white;
+}
+
+.down-icon {
+    text-align: center;
+}
+
+.down-icon p :hover {
+    color: #0094D4;
+}
+
+ 
+.banner {
+	color: white;
+	font-family: 'Montserrat', 'Athiti', sans-serif;
+    margin-top: 180px;
+    padding-bottom: 197px;
+}
+
+.banner h2 {
+	font-size: 40px;
+	margin-bottom: 30px;
+    text-shadow: 0 2px 2px black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.banner h3 {
+    
+}
+
+.banner p {
+	font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 2px black;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.banner p2 {
+	font-size: 18px;
+    text-align: center;
+}
+
+.banner p2 a {
+    color: #D4AF37;
+    text-decoration: none;
+    margin-bottom: 50px;
+    text-shadow: 0 2px 7px black;
+}
+
+.banner p2 a:hover {
+    border: gray;
+}
+
+.menu {
+    box-shadow: 0 0px 0px;
+    text-align: right;
+}
+
+.menu ul{
+	background-color: ;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    font-size: 17px;
+    margin: 25px;
+    line-height: 70px;
+    position: relative;
+}
+    
+.head {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    background-color: #EFEFEF;
+}
+
+.head h3 {
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu li a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.menu li a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 0px;
+	}
+}
+
+.banner p2:hover, a.ex5:active {
+    text-decoration: underline;
+}
+
+
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.column div {
+	position: relative;
+	float: left;
+	width: 750px;
+	height: auto;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+    float: right;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 750px;
+	margin: 0;
+	padding: 0;
+	color: black;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    -webkit-animation:slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both;animation:slide-fwd-center .45s cubic-bezier(.25,.46,.45,.94) both; 
+    
+}
+
+
+figure {
+	width: 750px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: #3E3E3E;
+	overflow: hidden;
+    box-shadow: 3px 2px 10px black;
+    margin-top: 50px;
+}
+
+@-webkit-keyframes slide-fwd-center{
+    0% {
+        -webkit- transform:translateZ(0);transform:translateZ(0)
+    }
+    100% {
+        -webkit-transform:translateZ(160px);transform:translateZ(160px)
+    }
+}
+
+@keyframes slide-fwd-center{
+    0% {
+        -webkit-transform:translateZ(0);transform:translateZ(0)
+    }
+    100% {
+        -webkit-transform:translateZ(160px);transform:translateZ(160px)
+    }
+}
+
+figure:hover+span {
+	bottom: -50px;
+	opacity: 1;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    float: right;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+    float: right;
+}
+
+.button {
+    background-color: white;   
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 100px;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    transition: 0.5s;
+
+}
+
+.button a {
+    color: black;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+
+
+footer {
+    text-align: right;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    box-shadow: 0 -2px 7px rgba(0, 0, 0, 0.2);
+    background-color:  rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+footer ul {
+    padding-left: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer h4 {
+    margin-bottom: 0px;
+    font-size: 13px;
+    margin-top: 5;
+}
+
+footer h5 {
+    margin-bottom: 0px;
+    font-size: 13px;
+    margin-top: 10;
+}
+

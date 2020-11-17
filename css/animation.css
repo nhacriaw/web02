@@ -1,0 +1,104 @@
+.logo {
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+    
+@keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+} 
+
+.banner {
+    -webkit-animation-name: fadeInbotBig;
+    animation-name: fadeInbotBig;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInbotBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+    
+@keyframes fadeInbotBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 500px, 0);
+    transform: translate3d(0, 500px, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.menu li {
+    -webkit-animation-name: fadeInrightBig;
+    animation-name: fadeInrightBig;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+@-webkit-keyframes fadeInrightBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -500px, 0);
+        transform: translate3d(0, -500px, 0);
+  }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+  }
+}
+    
+@keyframes fadeInrightBig {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -500px, 0);
+        transform: translate3d(0, -500px, 0);
+  }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+  }
+}

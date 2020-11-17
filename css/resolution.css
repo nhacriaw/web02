@@ -1,0 +1,119 @@
+@media screen and (max-width:1600px) {
+    #container {
+        width: 100%
+    }
+    
+    figure {
+	width: 600px;
+
+    }
+    
+    figure img {
+        width: 600px;
+    }
+    
+    .column div {
+	   width: 600px;
+    } 
+    
+    .column div span {
+	   width: 600px; 
+    }
+    
+    .graduated img {
+        width: 691.5px;
+    }
+    
+    .profile img {
+        width: 691.5px;
+    }
+    
+    .left h1 {
+        font-size: 50px;
+    }
+    
+    .left p {
+        font-size: 19px;
+    }
+    
+    .right h1 {
+        font-size: 50px;
+    }
+    
+    .right p {
+        font-size: 19px;
+    }
+    
+    .modal-content {
+    position: relative;
+    margin: 0px;
+    left:270px;
+    top:70;
+    width: 1024px;
+    }
+
+}
+
+
+@media screen and (max-width:1366px) {
+    #container {
+        width: 100%
+    }
+    
+    figure {
+	   width: 450px;
+
+    }
+    
+    figure img {
+        width: 450px;
+    }
+    
+    .column div {
+	   width: 450px;
+    } 
+    
+    .column div span {
+	   width: 450px; 
+    }
+    
+    .graduated img {
+        width: 531.9px;
+    }
+    
+    .profile img {
+        width: 531.9px;
+    }
+    
+    .left {
+        margin-right: 120px;
+    }
+    
+    .left h1 {
+        font-size: 25px;
+    }
+    
+    .left p {
+        font-size: 13px;
+    }
+    
+    .right h1 {
+        font-size: 25px;
+    }
+    
+    .right p {
+        font-size: 13px;
+    }
+    
+    .modal-content {
+    position: relative;
+    margin: 0px;
+    left:250px;
+    top:70;
+    width: 800px;
+    }
+
+}
+
+
+    

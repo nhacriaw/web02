@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+}
+
+.main-middle h3 {
+    border-bottom: 1px solid #30535a;
+    line-height: .1em;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    margin: 100px 100px;
+}
+
+.main-middle h3 span {
+    background-color: white;
+    padding: 20;
+}
+
+.banner-ct {
+    color: white;
+	font-family: 'Montserrat', 'Athiti', sans-serif;
+	text-align: left;
+    margin-left: 80px;
+    padding-bottom: 160px;
+    padding-top: 160px;
+    text-shadow: 0 2px 7px black;
+}
+
+.banner-ct h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.banner-ct p {
+    font-size: 29px;
+    margin-top: 0px;
+}
+
+.main {
+    
+}
+
+.main-middle {
+    text-align: center;
+}
+
+.main-middle h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.main-middle p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #FF6E47;
+}
+
+.main-middle ul {
+    padding-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.main-middle li {
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+}
+
+.main-middle li img {
+    transition: .3s;
+    
+}
+
+.main-middle li img:hover {
+    transform: scale(1.1)
+}
+
+.main-middle2 {
+    text-align: center;
+}
+
+.main-middle2 h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+

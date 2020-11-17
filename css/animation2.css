@@ -1,0 +1,190 @@
+.graduated {
+    -webkit-animation-name: fadeInleft;
+    animation-name: fadeInleft;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    transition-timing-function: linear;
+}
+
+@-webkit-keyframes fadeInleft {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInleft {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.profile {
+    -webkit-animation-name: fadeInright;
+    animation-name: fadeInright;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInright {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInright {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+    100% {
+    opacity: 100;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.banner-s {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 1s;
+    animation-name: animateright;
+    animation-duration: 1s
+    }
+
+@-webkit-keyframes animatebottom {
+    from { bottom:-500px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+    from{ bottom:-500px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+}
+
+.main {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1.5s;
+    animation-name: animatebottom;
+    animation-duration: 1.5s
+}
+
+@-webkit-keyframes animatebottom {
+    from { bottom:-500px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+    from{ bottom:-500px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+}
+
+.banner-g {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 1s;
+    animation-name: animateright;
+    animation-duration: 1s
+    }
+
+.photo {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 2.5s;
+    animation-name: animatebottom;
+    animation-duration: 2.5s
+}
+
+.banner-ct {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 1s;
+    animation-name: animateright;
+    animation-duration: 1s
+}
+
+.banner-f {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 1s;
+    animation-name: animateright;
+    animation-duration: 1s
+}
+
+.q {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 2s;
+    animation-name: animateright;
+    animation-duration: 2s
+}
+
+.q2 {
+    position: relative;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 2.5s;
+    animation-name: animateleft;
+    animation-duration: 2.5s
+}
+
+.q3 {
+    position: relative;
+    -webkit-animation-name: animateright;
+    -webkit-animation-duration: 3s;
+    animation-name: animateright;
+    animation-duration: 3s
+}
+
+.q4 {
+    position: relative;
+    -webkit-animation-name: animateleft;
+    -webkit-animation-duration: 3.5s;
+    animation-name: animateleft;
+    animation-duration: 3.5s
+}
+
+@-webkit-keyframes animateright {
+    from { right:-500px; opacity:0 } 
+    to { right:-0; opacity:1 }
+}
+
+@keyframes animateright { 
+    from{ right:500px; opacity:0 } 
+    to{ right:-0; opacity:1 }
+}
+
+@-webkit-keyframes animateleft {
+    from { left:-500px; opacity:0 } 
+    to { left:-0; opacity:1 }
+}
+
+@keyframes animateleft { 
+    from{ left:500px; opacity:0 } 
+    to{ left:-0; opacity:1 }
+}
